@@ -1,0 +1,162 @@
+# depslib dependency file v1.0
+1495008629 source:/home/zeph/Desktop/C++ Projects/Fuck/main.cpp
+	<iostream>
+	<allegro.h>
+	<stdio.h>
+	<allegro_native_dialog.h>
+	<allegro_image.h>
+	<allegro_ttf.h>
+	<allegro_font.h>
+	<allegro_primitives.h>
+	"Queen.h"
+	"QueenList.h"
+	"Background.h"
+
+1495008267 source:/home/zeph/Desktop/C++ Projects/Fuck/src/Queen.cpp
+	"Queen.h"
+	<allegro.h>
+	<allegro_primitives.h>
+
+1494926002 /home/zeph/Desktop/C++ Projects/Fuck/include/Queen.h
+	<allegro.h>
+	<allegro_primitives.h>
+
+1495008457 source:/home/zeph/Desktop/C++ Projects/Fuck/src/QueenList.cpp
+	"QueenList.h"
+	"Queen.h"
+
+1494927840 /home/zeph/Desktop/C++ Projects/Fuck/include/QueenList.h
+	"Queen.h"
+
+1494991505 /home/zeph/Desktop/C++ Projects/Fuck/include/Background.h
+	<allegro.h>
+	<allegro_image.h>
+
+1494991442 source:/home/zeph/Desktop/C++ Projects/Fuck/src/Background.cpp
+	"Background.h"
+
+1495100971 source:/home/chanchus/codeblocks/Fuck/main.cpp
+	<iostream>
+	<allegro.h>
+	<stdio.h>
+	<allegro_native_dialog.h>
+	<allegro_image.h>
+	<allegro_ttf.h>
+	<allegro_font.h>
+	<allegro_primitives.h>
+	"Queen.h"
+	"QueenList.h"
+	"Background.h"
+
+1495098996 /home/chanchus/codeblocks/Fuck/include/Queen.h
+	<allegro.h>
+	<allegro_primitives.h>
+
+1494927840 /home/chanchus/codeblocks/Fuck/include/QueenList.h
+	"Queen.h"
+
+1494991506 /home/chanchus/codeblocks/Fuck/include/Background.h
+	<allegro.h>
+	<allegro_image.h>
+
+1495099608 source:/home/chanchus/codeblocks/Fuck/src/Queen.cpp
+	"Queen.h"
+	<allegro.h>
+	<allegro_primitives.h>
+
+1495099608 source:/home/chanchus/codeblocks/Fuck/src/QueenList.cpp
+	"QueenList.h"
+	"Queen.h"
+
+1494991442 source:/home/chanchus/codeblocks/Fuck/src/Background.cpp
+	"Background.h"
+
+1494991442 source:/home/zeph/Downloads/Fuck/src/Background.cpp
+	"Background.h"
+
+1494991506 /home/zeph/Downloads/Fuck/include/Background.h
+	<allegro.h>
+	<allegro_image.h>
+
+1495193712 source:/home/zeph/Downloads/Fuck/src/Queen.cpp
+	"Queen.h"
+	<allegro.h>
+	<allegro_primitives.h>
+
+1495098996 /home/zeph/Downloads/Fuck/include/Queen.h
+	<allegro.h>
+	<allegro_primitives.h>
+
+1495193712 source:/home/zeph/Downloads/Fuck/src/QueenList.cpp
+	"QueenList.h"
+	"Queen.h"
+
+1494927840 /home/zeph/Downloads/Fuck/include/QueenList.h
+	"Queen.h"
+
+1495162670 source:/home/zeph/Downloads/Fuck/main.cpp
+	<iostream>
+	<allegro.h>
+	<stdio.h>
+	<allegro_native_dialog.h>
+	<allegro_image.h>
+	<allegro_ttf.h>
+	<allegro_font.h>
+	<allegro_primitives.h>
+	"Queen.h"
+	"QueenList.h"
+	"Background.h"
+
+1495237722 source:/home/zeph/Downloads/8_Queens/main.cpp
+	<iostream>
+	<allegro.h>
+	<stdio.h>
+	<allegro_native_dialog.h>
+	<allegro_image.h>
+	<allegro_ttf.h>
+	<allegro_font.h>
+	<allegro_primitives.h>
+	"Queen.h"
+	"QueenList.h"
+	"Background.h"
+	<stdio.h>
+
+1495237905 /home/zeph/Downloads/8_Queens/include/Queen.h
+	<allegro.h>
+	<allegro_primitives.h>
+
+1494927840 /home/zeph/Downloads/8_Queens/include/QueenList.h
+	"Queen.h"
+
+1494991506 /home/zeph/Downloads/8_Queens/include/Background.h
+	<allegro.h>
+	<allegro_image.h>
+
+1494991442 source:/home/zeph/Downloads/8_Queens/src/Background.cpp
+	"Background.h"
+
+1495237880 source:/home/zeph/Downloads/8_Queens/src/Queen.cpp
+	"Queen.h"
+	<allegro.h>
+	<allegro_primitives.h>
+
+1495237880 source:/home/zeph/Downloads/8_Queens/src/QueenList.cpp
+	"QueenList.h"
+	"Queen.h"
+
+1494991442 source:c:\users\estadm\desktop\8reinas_backtracking\8_queens\src\background.cpp
+	"Background.h"
+
+1495254601 c:\users\estadm\desktop\8reinas_backtracking\8_queens\include\background.h
+	<allegro.h>
+	<allegro_image.h>
+
+1495237880 source:c:\users\estadm\desktop\8reinas_backtracking\8_queens\src\queen.cpp
+	"Queen.h"
+	<allegro.h>
+	<allegro_primitives.h>
+
+1495254601 c:\users\estadm\desktop\8reinas_backtracking\8_queens\include\queen.h
+	<allegro.h>
+	<allegro_primitives.h>
+
