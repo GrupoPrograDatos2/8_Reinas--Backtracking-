@@ -282,7 +282,7 @@ void nqueen(int row) {
    }
 }*/
 ///NewN_Queen
-/* A utility function to print solution */
+//Imprimer solucion
 void printSolution(int board[N][N])
 {
     static  int k = 1;
@@ -295,22 +295,22 @@ void printSolution(int board[N][N])
     }
     printf("\n");
 }
-
+//Metodo para valorar celda segura.
 bool isSafe(int board[N][N], int row, int col)
 {
     int i, j;
 
-    /* Check this row on left side */
+    ///Chek laterales
     for (i = 0; i < col; i++)
         if (board[row][i])
             return false;
 
-    /* Check upper diagonal on left side */
+    ///chek diagonales arriba
     for (i=row, j=col; i>=0 && j>=0; i--, j--)
         if (board[i][j])
             return false;
 
-    /* Check lower diagonal on left side */
+    ///Chek Diagonales abajo
     for (i=row, j=col; j>=0 && i<N; i++, j--)
         if (board[i][j])
             return false;
@@ -320,49 +320,40 @@ bool isSafe(int board[N][N], int row, int col)
 
 bool solveNQUtil(int board[N][N], int col)
 {
-    /* base case: If all queens are placed
-    then return true */
+    ///Caso base
     if (col == N )
     {
         printSolution(board);
         return true;
     }
 
-    /* Consider this column and try placing
-    this queen in all rows one by one */
+    ///considera columna y las va revisando
     for (int i = 0; i < N; i++)
     {
-        /* Check if queen can be placed on
-        board[i][col] */
+        //REvisa si peude con ese metodo
         if ( isSafe(board, i, col) )
         {
-            /* Place this queen in board[i][col] */
+            //Coloca la reina en el lugar seguro
             board[i][col] = 1;
 
-            /* recur to place rest of the queens */
+
             //solveNQUtil(board, col + 1) ;
 
-            // below commented statement is replaced
-            // by above one
+
             if ( solveNQUtil(board, col + 1) )
                  return true;
 
-            /* If placing queen in board[i][col]
-            doesn't lead to a solution, then
-            remove queen from board[i][col] */
+
             board[i][col] = 0; // BACKTRACK
         }
     }
 
-    /* If queen can not be place in any row in
-        this column col then return false */
+
     return false;
 }
 
 void solveNQ()
 {
-
-
 
     if (solveNQUtil(board, 0))
     {
