@@ -1,0 +1,219 @@
+\hypertarget{main_8cpp}{}\section{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$allegro.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$allegro\+\_\+native\+\_\+dialog.\+h$>$}\newline
+{\ttfamily \#include $<$allegro\+\_\+image.\+h$>$}\newline
+{\ttfamily \#include $<$allegro\+\_\+ttf.\+h$>$}\newline
+{\ttfamily \#include $<$allegro\+\_\+font.\+h$>$}\newline
+{\ttfamily \#include $<$allegro\+\_\+primitives.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Queen.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Queen\+List.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Background.\+h\char`\"{}}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{main_8cpp_a0240ac851181b84ac374872dc5434ee4}{N}~8
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8cpp_a84b605a1fc639f18afb47f263e1c12d5}{Make\+Chess} ()
+\begin{DoxyCompactList}\small\item\em prototipo de funcion \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_adbef166abb3a825f23e61f84ee2dcce3}{Move\+Queen} ()
+\item 
+void \hyperlink{main_8cpp_a1017a578d7e9edb11eac12678969f233}{printmatrix} ()
+\item 
+int \hyperlink{main_8cpp_a0197f9d79c2f4c34bd9db6f56b84336f}{getmarkedcol} (int row)
+\item 
+int \hyperlink{main_8cpp_ad65f4ebeff232c65aa1932ca3554b315}{Chek\+Pos} (int row, int col)
+\item 
+void \hyperlink{main_8cpp_a9769a7daa78e883a627e50c2a0087daf}{nqueen} (int row)
+\item 
+void \hyperlink{main_8cpp_a267dcd54308913ecaf3d4bc4b251331c}{print\+Solution} (int \hyperlink{main_8cpp_ad36f9d9d2a001c1d1163e9b5c830eb05}{board}\mbox{[}\hyperlink{main_8cpp_a0240ac851181b84ac374872dc5434ee4}{N}\mbox{]}\mbox{[}\hyperlink{main_8cpp_a0240ac851181b84ac374872dc5434ee4}{N}\mbox{]})
+\begin{DoxyCompactList}\small\item\em New\+N\+\_\+\+Queen. \end{DoxyCompactList}\item 
+bool \hyperlink{main_8cpp_aa0f651f970d6e843b6aec1cfc7208a2b}{is\+Safe} (int \hyperlink{main_8cpp_ad36f9d9d2a001c1d1163e9b5c830eb05}{board}\mbox{[}\hyperlink{main_8cpp_a0240ac851181b84ac374872dc5434ee4}{N}\mbox{]}\mbox{[}\hyperlink{main_8cpp_a0240ac851181b84ac374872dc5434ee4}{N}\mbox{]}, int row, int col)
+\item 
+bool \hyperlink{main_8cpp_a3d646f9f4e1614d73530d65f29cd610d}{solve\+N\+Q\+Util} (int \hyperlink{main_8cpp_ad36f9d9d2a001c1d1163e9b5c830eb05}{board}\mbox{[}\hyperlink{main_8cpp_a0240ac851181b84ac374872dc5434ee4}{N}\mbox{]}\mbox{[}\hyperlink{main_8cpp_a0240ac851181b84ac374872dc5434ee4}{N}\mbox{]}, int col)
+\item 
+void \hyperlink{main_8cpp_a4c8509acfa1af675a9d6349379e68545}{solve\+NQ} ()
+\item 
+void \hyperlink{main_8cpp_a630912f73279043c5cb66bc858cb6ca7}{Nqueens} (int \hyperlink{main_8cpp_ad36f9d9d2a001c1d1163e9b5c830eb05}{board}, Queen Queens)
+\item 
+int \hyperlink{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main} (void)
+\begin{DoxyCompactList}\small\item\em Main \+:D. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{main_8cpp_a48b1fe4c861cdbd7029af25c0639503d}{tam\+\_\+cuadrito} = 50
+\item 
+int \hyperlink{main_8cpp_a75cffdcf2926ac12ed2d95fc91e15d00}{Xini1} = 0
+\item 
+int \hyperlink{main_8cpp_a536eaa2994094aa9d1b7309d693446c3}{Yini1} = 0
+\item 
+int \hyperlink{main_8cpp_a28f63332fb4c66c5d5d3c37912fb01d3}{Xini2} = 50
+\item 
+int \hyperlink{main_8cpp_a22e7ae2227ea9b26e7856e93c968f7a8}{Yini2} = 50
+\item 
+int \hyperlink{main_8cpp_a76f11d9a0a47b94f72c2d0e77fb32240}{n}
+\item 
+int \hyperlink{main_8cpp_a86cf672daa4e0ad11ad10efc894d19c8}{num} = 8
+\item 
+int \hyperlink{main_8cpp_ad36f9d9d2a001c1d1163e9b5c830eb05}{board} \mbox{[}\hyperlink{main_8cpp_a0240ac851181b84ac374872dc5434ee4}{N}\mbox{]}\mbox{[}\hyperlink{main_8cpp_a0240ac851181b84ac374872dc5434ee4}{N}\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{main_8cpp_a0240ac851181b84ac374872dc5434ee4}\label{main_8cpp_a0240ac851181b84ac374872dc5434ee4}} 
+\index{main.\+cpp@{main.\+cpp}!N@{N}}
+\index{N@{N}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{N}{N}}
+{\footnotesize\ttfamily \#define N~8}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_ad65f4ebeff232c65aa1932ca3554b315}\label{main_8cpp_ad65f4ebeff232c65aa1932ca3554b315}} 
+\index{main.\+cpp@{main.\+cpp}!Chek\+Pos@{Chek\+Pos}}
+\index{Chek\+Pos@{Chek\+Pos}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Chek\+Pos()}{ChekPos()}}
+{\footnotesize\ttfamily int Chek\+Pos (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a0197f9d79c2f4c34bd9db6f56b84336f}\label{main_8cpp_a0197f9d79c2f4c34bd9db6f56b84336f}} 
+\index{main.\+cpp@{main.\+cpp}!getmarkedcol@{getmarkedcol}}
+\index{getmarkedcol@{getmarkedcol}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{getmarkedcol()}{getmarkedcol()}}
+{\footnotesize\ttfamily int getmarkedcol (\begin{DoxyParamCaption}\item[{int}]{row }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_aa0f651f970d6e843b6aec1cfc7208a2b}\label{main_8cpp_aa0f651f970d6e843b6aec1cfc7208a2b}} 
+\index{main.\+cpp@{main.\+cpp}!is\+Safe@{is\+Safe}}
+\index{is\+Safe@{is\+Safe}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{is\+Safe()}{isSafe()}}
+{\footnotesize\ttfamily bool is\+Safe (\begin{DoxyParamCaption}\item[{int}]{board\mbox{[}\+N\mbox{]}\mbox{[}\+N\mbox{]},  }\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}\label{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Main \+:D. 
+
+nqueen(0); \mbox{\Hypertarget{main_8cpp_a84b605a1fc639f18afb47f263e1c12d5}\label{main_8cpp_a84b605a1fc639f18afb47f263e1c12d5}} 
+\index{main.\+cpp@{main.\+cpp}!Make\+Chess@{Make\+Chess}}
+\index{Make\+Chess@{Make\+Chess}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Make\+Chess()}{MakeChess()}}
+{\footnotesize\ttfamily void Make\+Chess (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+prototipo de funcion 
+
+\mbox{\Hypertarget{main_8cpp_adbef166abb3a825f23e61f84ee2dcce3}\label{main_8cpp_adbef166abb3a825f23e61f84ee2dcce3}} 
+\index{main.\+cpp@{main.\+cpp}!Move\+Queen@{Move\+Queen}}
+\index{Move\+Queen@{Move\+Queen}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Move\+Queen()}{MoveQueen()}}
+{\footnotesize\ttfamily void Move\+Queen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a9769a7daa78e883a627e50c2a0087daf}\label{main_8cpp_a9769a7daa78e883a627e50c2a0087daf}} 
+\index{main.\+cpp@{main.\+cpp}!nqueen@{nqueen}}
+\index{nqueen@{nqueen}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{nqueen()}{nqueen()}}
+{\footnotesize\ttfamily void nqueen (\begin{DoxyParamCaption}\item[{int}]{row }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a630912f73279043c5cb66bc858cb6ca7}\label{main_8cpp_a630912f73279043c5cb66bc858cb6ca7}} 
+\index{main.\+cpp@{main.\+cpp}!Nqueens@{Nqueens}}
+\index{Nqueens@{Nqueens}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Nqueens()}{Nqueens()}}
+{\footnotesize\ttfamily void Nqueens (\begin{DoxyParamCaption}\item[{int}]{board,  }\item[{Queen}]{Queens }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a1017a578d7e9edb11eac12678969f233}\label{main_8cpp_a1017a578d7e9edb11eac12678969f233}} 
+\index{main.\+cpp@{main.\+cpp}!printmatrix@{printmatrix}}
+\index{printmatrix@{printmatrix}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{printmatrix()}{printmatrix()}}
+{\footnotesize\ttfamily void printmatrix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a267dcd54308913ecaf3d4bc4b251331c}\label{main_8cpp_a267dcd54308913ecaf3d4bc4b251331c}} 
+\index{main.\+cpp@{main.\+cpp}!print\+Solution@{print\+Solution}}
+\index{print\+Solution@{print\+Solution}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{print\+Solution()}{printSolution()}}
+{\footnotesize\ttfamily void print\+Solution (\begin{DoxyParamCaption}\item[{int}]{board\mbox{[}\+N\mbox{]}\mbox{[}\+N\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+New\+N\+\_\+\+Queen. 
+
+\mbox{\Hypertarget{main_8cpp_a4c8509acfa1af675a9d6349379e68545}\label{main_8cpp_a4c8509acfa1af675a9d6349379e68545}} 
+\index{main.\+cpp@{main.\+cpp}!solve\+NQ@{solve\+NQ}}
+\index{solve\+NQ@{solve\+NQ}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{solve\+N\+Q()}{solveNQ()}}
+{\footnotesize\ttfamily void solve\+NQ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a3d646f9f4e1614d73530d65f29cd610d}\label{main_8cpp_a3d646f9f4e1614d73530d65f29cd610d}} 
+\index{main.\+cpp@{main.\+cpp}!solve\+N\+Q\+Util@{solve\+N\+Q\+Util}}
+\index{solve\+N\+Q\+Util@{solve\+N\+Q\+Util}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{solve\+N\+Q\+Util()}{solveNQUtil()}}
+{\footnotesize\ttfamily bool solve\+N\+Q\+Util (\begin{DoxyParamCaption}\item[{int}]{board\mbox{[}\+N\mbox{]}\mbox{[}\+N\mbox{]},  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{main_8cpp_ad36f9d9d2a001c1d1163e9b5c830eb05}\label{main_8cpp_ad36f9d9d2a001c1d1163e9b5c830eb05}} 
+\index{main.\+cpp@{main.\+cpp}!board@{board}}
+\index{board@{board}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{board}{board}}
+{\footnotesize\ttfamily int board\mbox{[}\hyperlink{main_8cpp_a0240ac851181b84ac374872dc5434ee4}{N}\mbox{]}\mbox{[}\hyperlink{main_8cpp_a0240ac851181b84ac374872dc5434ee4}{N}\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{ \{0, 0, 0, 0, 0, 0, 0, 0\},
+                    \{0, 0, 0, 0, 0, 0, 0, 0\},
+                    \{0, 0, 0, 0, 0, 0, 0, 0\},
+                    \{0, 0, 0, 0, 0, 0, 0, 0\},
+    \}
+\end{DoxyCode}
+\mbox{\Hypertarget{main_8cpp_a76f11d9a0a47b94f72c2d0e77fb32240}\label{main_8cpp_a76f11d9a0a47b94f72c2d0e77fb32240}} 
+\index{main.\+cpp@{main.\+cpp}!n@{n}}
+\index{n@{n}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{n}{n}}
+{\footnotesize\ttfamily int n}
+
+\mbox{\Hypertarget{main_8cpp_a86cf672daa4e0ad11ad10efc894d19c8}\label{main_8cpp_a86cf672daa4e0ad11ad10efc894d19c8}} 
+\index{main.\+cpp@{main.\+cpp}!num@{num}}
+\index{num@{num}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{num}{num}}
+{\footnotesize\ttfamily int num = 8}
+
+\mbox{\Hypertarget{main_8cpp_a48b1fe4c861cdbd7029af25c0639503d}\label{main_8cpp_a48b1fe4c861cdbd7029af25c0639503d}} 
+\index{main.\+cpp@{main.\+cpp}!tam\+\_\+cuadrito@{tam\+\_\+cuadrito}}
+\index{tam\+\_\+cuadrito@{tam\+\_\+cuadrito}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{tam\+\_\+cuadrito}{tam\_cuadrito}}
+{\footnotesize\ttfamily int tam\+\_\+cuadrito = 50}
+
+\mbox{\Hypertarget{main_8cpp_a75cffdcf2926ac12ed2d95fc91e15d00}\label{main_8cpp_a75cffdcf2926ac12ed2d95fc91e15d00}} 
+\index{main.\+cpp@{main.\+cpp}!Xini1@{Xini1}}
+\index{Xini1@{Xini1}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Xini1}{Xini1}}
+{\footnotesize\ttfamily int Xini1 = 0}
+
+\mbox{\Hypertarget{main_8cpp_a28f63332fb4c66c5d5d3c37912fb01d3}\label{main_8cpp_a28f63332fb4c66c5d5d3c37912fb01d3}} 
+\index{main.\+cpp@{main.\+cpp}!Xini2@{Xini2}}
+\index{Xini2@{Xini2}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Xini2}{Xini2}}
+{\footnotesize\ttfamily int Xini2 = 50}
+
+\mbox{\Hypertarget{main_8cpp_a536eaa2994094aa9d1b7309d693446c3}\label{main_8cpp_a536eaa2994094aa9d1b7309d693446c3}} 
+\index{main.\+cpp@{main.\+cpp}!Yini1@{Yini1}}
+\index{Yini1@{Yini1}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Yini1}{Yini1}}
+{\footnotesize\ttfamily int Yini1 = 0}
+
+\mbox{\Hypertarget{main_8cpp_a22e7ae2227ea9b26e7856e93c968f7a8}\label{main_8cpp_a22e7ae2227ea9b26e7856e93c968f7a8}} 
+\index{main.\+cpp@{main.\+cpp}!Yini2@{Yini2}}
+\index{Yini2@{Yini2}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Yini2}{Yini2}}
+{\footnotesize\ttfamily int Yini2 = 50}
+
